@@ -34,7 +34,7 @@ This repo is the concrete implementations. Plus one rename — `/context` collid
 ```bash
 mkdir -p ~/.claude/commands
 for cmd in vault-context trace connect ideas graduate; do
-  curl -fsSL "https://raw.githubusercontent.com/DAIRYFARMER23/claude-code-obsidian-commands/main/commands/${cmd}.md" \
+  curl -fsSL "https://raw.githubusercontent.com/dairyfarmer23/claude-code-obsidian-commands/main/commands/${cmd}.md" \
     -o "~/.claude/commands/${cmd}.md"
 done
 ```
@@ -42,7 +42,7 @@ done
 ### Option B — clone + install
 
 ```bash
-git clone https://github.com/DAIRYFARMER23/claude-code-obsidian-commands.git
+git clone https://github.com/dairyfarmer23/claude-code-obsidian-commands.git
 cd claude-code-obsidian-commands
 ./install.sh
 ```
